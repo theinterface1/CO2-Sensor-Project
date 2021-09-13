@@ -1,0 +1,10 @@
+SensorCenter:
+    To be called from the Terminal with
+        python SensorCenter.py [RunTime] [Frequency] -t
+
+        The -t signals this is a test run and uses a double array of integers for testing output.
+
+        In near future -t will be optional. For now, the -t is necessary otherwise it calls the
+        start() function which  produces no output.
+
+
